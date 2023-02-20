@@ -17,6 +17,11 @@ function decodeClientReportNotify(buf){
 }
 ```
 
+```
+Sample: 591313186179111d1d1d1e127f710e12121861686e20de
+Result: {"1":["3.3.0"],"0":[3]}
+```
+
 Encode
 ```
 function encodeClientReportNotify(report){
@@ -30,4 +35,9 @@ function encodeClientReportNotify(report){
     }
     return buf;
 }
+```
+
+```
+Sample: {"1":["3.3.0"],"0":[3]}
+Result: 591313186179111d1d1d1e127f710e12121861686e20de
 ```
